@@ -17,7 +17,9 @@ function App() {
 
   return (
     <>
-      <PropsCard1 title="some title1" content="some content1" author="soem author1" />
+      <PropsCard1 title="some title1" content="some content1" author="soem author1" number={10} isBool={true} />
+      <PropsCard1 title="some title1-1" content="some content-1" author="soem author1-1" number={30} isBool={false} />
+
       <PropsCard2 title="some title2" content="some content2" author="soem author2" />
       
       <PropsCard3 />
